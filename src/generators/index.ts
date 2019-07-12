@@ -1,1 +1,2 @@
-export * from './NpmConfigGenerator';
+export * from './NpmLockGenerator';
+export * from './NpmPackageGenerator';
