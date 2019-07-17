@@ -19,6 +19,17 @@ export const NpmPackageSchema = {
         type: 'string'
       }
     },
+    hooks: {
+      type: 'object',
+      properties: {
+        'pre-commit': {
+          type: 'string'
+        },
+        'pre-push': {
+          type: 'string'
+        }
+      }
+    },
     links: {
       type: 'array',
       items: {
