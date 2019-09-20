@@ -7,6 +7,9 @@ export const NpmPackageSchema = {
     version: {
       type: 'string'
     },
+    main: {
+      type: 'string'
+    },
     dependencies: {
       type: 'object',
       additionalProperties: {

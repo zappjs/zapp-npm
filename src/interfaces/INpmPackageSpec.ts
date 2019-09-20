@@ -1,6 +1,7 @@
 export interface INpmPackageSpec {
   name?: string;
   version?: string;
+  main?: string;
   dependencies?: {
     [name: string]: string;
   };
